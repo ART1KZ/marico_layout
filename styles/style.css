@@ -11,24 +11,27 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 .logo {
     display: flex;
     flex-direction: row;
-    justify-content: start;
-    margin-left: 8.75rem;
-    margin-top: 3.3rem;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo p{
-    margin-left: 1.06rem;
-    font-size: 2.3125rem;
+    display: flex;
+    flex-direction: row;
     font-style: normal;
     font-weight: 800;
+    font-size: 37px;
+
 }
 .navigation {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    
     
 }
 
