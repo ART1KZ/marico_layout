@@ -3,35 +3,58 @@ html {
     font-family: 'Poppins', sans-serif;
     font-size: 12px;
 }
+
 body {
     background-color: black;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+:root {
+    --text-gray: #707070;
+  }
 
-}
-.logo {
+.cont {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin-top: 3.3rem;
 }
-.logo p{
+
+.navlogo {
     display: flex;
-    flex-direction: row;
+    justify-content: start;
+
+    margin-left: 8.75rem;
+}
+
+.navlogo img {
+    width:auto;
+    height: auto;
+}
+.navlogo p {
+    width:auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 2.3125rem;
     font-style: normal;
     font-weight: 800;
-    font-size: 37px;
-
+    padding-left: 1.06rem;
 }
+
 .navigation {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    
+    align-items: center;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--text-gray)
 }
 
+.login-signup {
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    
+    margin-right: 10rem;
+}
