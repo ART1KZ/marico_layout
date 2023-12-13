@@ -1,0 +1,25 @@
+.root {
+    --text-white: #FFFFFF;
+}
+.login-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-white);
+    margin-top: 4.938rem;
+}
+
+.login-text>h1 {
+    font-size: 4.6875rem;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0px;
+    height: 7rem;
+}
+
+.login-text>p {
+    margin: 0px;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+}

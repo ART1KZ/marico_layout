@@ -10,29 +10,31 @@ body {
 
 :root {
     --text-gray: #707070;
+    --text-white: #FFFFFF;
+    --button-blue: #306EF7;
   }
 
 .cont {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 3.3rem;
+    margin-top: 2.87rem;
+    height: 3.6875rem;
+    
 }
 
 .navlogo {
     display: flex;
     justify-content: start;
-
     margin-left: 8.75rem;
 }
 
-.navlogo img {
-    width:auto;
-    height: auto;
+.navlogo>img {
+    position: relative;
+    bottom: 0.2rem;
+    
 }
 .navlogo p {
-    width:auto;
-    height: auto;
     display: flex;
     align-items: center;
     font-size: 2.3125rem;
@@ -51,10 +53,37 @@ body {
     color: var(--text-gray)
 }
 
+.navigation>a {
+    text-decoration: none;
+    color: var(--text-gray);
+    margin-left: 2.44rem;
+}
+
+.navigation>img {
+    padding-top: 0.77rem;
+    padding-left: 0.57rem;
+    padding-bottom: 0.73rem;
+}
+
 .login-signup {
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    
     margin-right: 10rem;
+}
+
+.login {
+    text-decoration: none;
+    color: var(--text-gray);
+    margin-right: 1.5rem;
+}
+
+.button-blue {
+    text-decoration: none;
+    color: var(--text-white);
+    background-color: var(--button-blue);
+    border-radius: 0.66rem;
+    width: 120rem;
+    height: 67.5rem;
+    padding: 1rem;
 }
